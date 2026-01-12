@@ -1,3 +1,5 @@
+import profile from "../assets/profile.jpg";
+
 export default function Hero() {
   return (
     <section
@@ -7,7 +9,7 @@ export default function Hero() {
       {/* Profile Picture */}
       <div className="flex-shrink-0 w-64 h-64 md:w-96 md:h-96">
         <img
-          src="src/assets/profile.jpg"
+          src={profile}
           alt="Sulav Bajracharya profile picture"
           className="w-full h-full object-cover rounded-full shadow-lg"
         />
